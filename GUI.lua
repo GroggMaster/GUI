@@ -141,7 +141,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	Title.Parent = LeftFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BackgroundTransparency = 1.000
-	Title.Position = UDim2.new(0.097560972, 0, 0.0475206636, 0)
+	Title.Position = UDim2.new(0.097560972, 0, 0.0405206636, 0)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
