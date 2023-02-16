@@ -141,19 +141,19 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	Title.Parent = LeftFrame
 	Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Title.BackgroundTransparency = 1.000
-	Title.Position = UDim2.new(0.097560972, 0, 0.0405206636, 0)
+	Title.Position = UDim2.new(0.097560972, 0, 0.0335206636, 0)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
 	Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-	Title.TextSize = 20.000
+	Title.TextSize = 17.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
 	BottomText.Name = "BottomText"
 	BottomText.Parent = LeftFrame
 	BottomText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	BottomText.BackgroundTransparency = 1.000
-	BottomText.Position = UDim2.new(0.097560972, 0, 0.0889999792, 0)
+	BottomText.Position = UDim2.new(0.097560972, 0, 0.0809999792, 0)
 	BottomText.Size = UDim2.new(0, 113, 0, 28)
 	BottomText.Font = Enum.Font.Gotham
 	BottomText.Text = bottom
@@ -2746,4 +2746,5 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	end
 	return Tabs
 end
+
 return Flux
